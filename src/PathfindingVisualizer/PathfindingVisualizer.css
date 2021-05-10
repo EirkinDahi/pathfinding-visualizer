@@ -1,3 +1,11 @@
-  .grid {
-    margin: 100px 0 0;
-  }
+.grid-container {
+  margin: 5% auto;
+}
+
+.grid {
+  white-space: pre;
+}
+
+button {
+  margin: 2px;
+}
