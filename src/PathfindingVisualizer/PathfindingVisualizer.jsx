@@ -369,6 +369,12 @@ export default class PathfindingVisualizer extends Component {
           onClick={() => this.visualize('Dijkstra')}>
           Dijkstra's
         </button>
+        <button
+          type = "button"
+          className="btn btn-primary"
+          onClick={()=> this.visualize("A-Star")}>
+          A*
+        </button>
         <table
           className="grid-container"
           onMouseLeave={() => this.handleMouseLeave()}>
